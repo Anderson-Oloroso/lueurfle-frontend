@@ -1,0 +1,15 @@
+services:
+  lueurfle-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lueurfle-frontend
+    ports:
+      - "${FRONTEND_PORT:-5500}:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1/ >/dev/null 2>&1 || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
