@@ -1,0 +1,83 @@
+:root {
+  color-scheme: light;
+
+  /* Paleta cálida — Modo Claro ("Café Matinal") */
+  --bg-page: #faf5ee;
+  --bg-surface: #fffdf9;
+  --bg-elevated: #f2e7d8;
+  --bg-subtle: #eadbc6;
+  --bg-user-bubble: #f6e6cf;
+  --bg-assistant-bubble: #fffdf9;
+  --bg-warning-soft: #f9e6e2;
+
+  --text-primary: #2a1e17;
+  --text-secondary: #6b5444;
+  --text-muted: #8a715e;
+  --text-on-accent: #fffdf9;
+
+  --border-color: #e3d3be;
+  --border-strong: #cfb89b;
+
+  --accent-primary: #b86b19;
+  --accent-primary-hover: #9d5911;
+  --accent-secondary: #8e323c;
+  --accent-success: #4f772d;
+  --accent-glow: rgba(184, 107, 25, 0.16);
+
+  --badge-basico-bg: #e7f0de;
+  --badge-basico-fg: #3b5c1f;
+  --badge-intermedio-bg: #fae9cf;
+  --badge-intermedio-fg: #8c4b0c;
+  --badge-avanzado-bg: #f4dde0;
+  --badge-avanzado-fg: #75222c;
+
+  --font-display: 'Georgia', 'Times New Roman', serif;
+  --font-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', Consolas, monospace;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+
+  --shadow-soft: 0 10px 28px rgba(42, 30, 23, 0.08);
+  --shadow-card: 0 2px 10px rgba(42, 30, 23, 0.05);
+  --transition-fast: 180ms ease;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  /* Paleta cálida — Modo Oscuro ("Lueur Nocturne") */
+  --bg-page: #17120e;
+  --bg-surface: #211a15;
+  --bg-elevated: #2b221b;
+  --bg-subtle: #362a21;
+  --bg-user-bubble: #38291d;
+  --bg-assistant-bubble: #241c16;
+  --bg-warning-soft: #3d2224;
+
+  --text-primary: #f5ece2;
+  --text-secondary: #c7b6a4;
+  --text-muted: #9c8a79;
+  --text-on-accent: #17120e;
+
+  --border-color: #3f3228;
+  --border-strong: #594739;
+
+  --accent-primary: #e8a849;
+  --accent-primary-hover: #f2b963;
+  --accent-secondary: #df7861;
+  --accent-success: #8bb174;
+  --accent-glow: rgba(232, 168, 73, 0.18);
+
+  --badge-basico-bg: #26361d;
+  --badge-basico-fg: #b4d898;
+  --badge-intermedio-bg: #3e2b15;
+  --badge-intermedio-fg: #f3c278;
+  --badge-avanzado-bg: #3e2125;
+  --badge-avanzado-fg: #f2a2ab;
+
+  --shadow-soft: 0 12px 32px rgba(0, 0, 0, 0.42);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.28);
+}
