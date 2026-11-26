@@ -13,7 +13,7 @@ Ofrecer una experiencia cálida, accesible y modular para estudiar **únicamente
 ## 🛠️ Tecnologías e Identidad Visual
 
 - **HTML5 semántico:** `<header>`, `<nav>`, `<aside>`, `<main>`, `<section>`, `<article>`, `<footer>`, skip link y atributos ARIA.
-- **CSS3:** variables semánticas en `css/variables.css` con paleta cálida (**Café Matinal** en modo claro y **Lueur Nocturne** en modo oscuro) + diseño *Mobile-First*.
+- **CSS3:** variables semánticas en `css/variables.css` adoptando la paleta cálida **Lotus Neo** (`#E63946` / `#FF6B35` / `#FFD166`, modo claro `#FFFFFF` / `#0F172A` y modo oscuro `#0B0F19` / `#F8FAFC`) + diseño *Mobile-First*.
 - **Identidad SVG (`assets/`):** `lueur-icon.svg` (favicon), `lueur-logo-light.svg` y `lueur-logo-dark.svg`.
 - **JavaScript Vanilla OOP (ESM):** `LueurApp`, `I18nManager` (`es` / `en` únicamente), `ThemeManager`, `ApiClient`, `CommandHelper`, vistas (`WelcomeView`, `ChatView`, `CommandMenuView`, `LibraryView`, `LevelGuideView`) y controladores (`ChatController`, `UploadController`).
 - **Servidor local y contenedor:** `scripts/dev-server.js` (Node.js estándar) y `Dockerfile` (`nginx:alpine`).

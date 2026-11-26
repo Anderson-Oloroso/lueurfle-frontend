@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" width="240" height="56" role="img" aria-labelledby="lueur-logo-dark-title">
-  <title id="lueur-logo-dark-title">Lueur FLE — Modo Oscuro</title>
+  <title id="lueur-logo-dark-title">Lueur FLE — Modo Oscuro (Lotus Neo)</title>
   <defs>
     <linearGradient id="darkMark" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#E8A849" />
-      <stop offset="100%" stop-color="#DF7861" />
+      <stop offset="0%" stop-color="#E63946" />
+      <stop offset="100%" stop-color="#FF6B35" />
     </linearGradient>
   </defs>
   <rect x="4" y="6" width="44" height="44" rx="12" fill="url(#darkMark)" />
-  <path d="M18 17v20a2 2 0 0 0 2 2h12" fill="none" stroke="#17120E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M31 15l4.5-3.8" fill="none" stroke="#FFFDF9" stroke-width="2.6" stroke-linecap="round" />
-  <path d="M32 22l1.2 2.8 2.8 1.2-2.8 1.2L32 30l-1.2-2.8L28 26l2.8-1.2Z" fill="#FFFDF9" />
-  <text x="60" y="34" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="700" letter-spacing="-0.4" fill="#F5ECE2">Lueur</text>
-  <text x="142" y="33" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#E8A849">FLE</text>
-  <text x="61" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#C7B6A4">Tuteur de Français · OCEAN</text>
+  <path d="M18 17v20a2 2 0 0 0 2 2h12" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M31 15l4.5-3.8" fill="none" stroke="#FFD166" stroke-width="2.6" stroke-linecap="round" />
+  <path d="M32 22l1.2 2.8 2.8 1.2-2.8 1.2L32 30l-1.2-2.8L28 26l2.8-1.2Z" fill="#FFD166" />
+  <text x="60" y="34" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="700" letter-spacing="-0.4" fill="#F8FAFC">Lueur</text>
+  <text x="142" y="33" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1.8" fill="#FF6B35">FLE</text>
+  <text x="61" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="500" fill="#94A3B8">Tuteur de Français · OCEAN</text>
 </svg>

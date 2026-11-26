@@ -91,3 +91,11 @@ test('All brand SVG assets exist and contain valid standalone SVG markup', async
     assert.match(svg, /<title/);
   }
 });
+
+test('css/variables.css defines the Lotus Neo light and dark color palette tokens', async () => {
+  const varsCss = await readFile(path.join(rootDir, 'css/variables.css'), 'utf8');
+  for (const tokenHex of ['#E63946', '#FF6B35', '#FFD166', '#0B0F19', '#0F172A', '#F8FAFC']) {
+    assert.ok(varsCss.includes(tokenHex), `Missing Lotus Neo color token ${tokenHex}`);
+  }
+  assert.match(varsCss, /linear-gradient\(135deg,\s*#E63946,\s*#FF6B35\)/);
+});
