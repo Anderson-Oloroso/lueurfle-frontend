@@ -1,0 +1,23 @@
+{
+  "name": "lueurfle-frontend",
+  "version": "1.0.0",
+  "description": "Interfaz web modular en HTML5 semántico, CSS3 cálido bitema (claro/oscuro) y JS Vanilla OOP para Lueur FLE",
+  "type": "module",
+  "main": "scripts/dev-server.js",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env scripts/dev-server.js",
+    "start": "node --env-file-if-exists=.env scripts/dev-server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "lueurfle",
+    "html5",
+    "css3",
+    "vanilla-js",
+    "esm",
+    "ocean",
+    "french-tutor"
+  ],
+  "author": "Henrik Anderson Oloroso Garcia (Anderson-Oloroso)",
+  "license": "MIT"
+}
