@@ -4,13 +4,13 @@
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Ofrecer una experiencia cálida, accesible y modular para estudiar **únicamente francés** en 3 fases (`/basico`, `/intermedio`, `/avanzado`) con el tutor **Lueur** (personalidad **OCEAN**), cargar archivos `docs.pdf` hacia **Qdrant** e inspeccionar los rasgos pedagógicos del asistente.
 
 ---
 
-## 🛠️ Tecnologías e Identidad Visual
+## Tecnologías e Identidad Visual
 
 - **HTML5 semántico:** `<header>`, `<nav>`, `<aside>`, `<main>`, `<section>`, `<article>`, `<footer>`, skip link y atributos ARIA.
 - **CSS3:** variables semánticas en `css/variables.css` adoptando la paleta cálida **Lotus Neo** (`#E63946` / `#FF6B35` / `#FFD166`, modo claro `#FFFFFF` / `#0F172A` y modo oscuro `#0B0F19` / `#F8FAFC`) + diseño *Mobile-First*.
@@ -20,7 +20,7 @@ Ofrecer una experiencia cálida, accesible y modular para estudiar **únicamente
 
 ---
 
-## 📂 Pantallas Modulares
+## Pantallas Modulares
 
 1. **Inicio (`#view-welcome`):** presentación de Lueur y selector directo de fase (`/basico`, `/intermedio`, `/avanzado`).
 2. **Tutor Chat (`#view-chat`):** conversación multi-turno con autocompletado interactivo al escribir `/`, badges CEFR y fuentes RAG de Qdrant.
@@ -29,7 +29,7 @@ Ofrecer una experiencia cálida, accesible y modular para estudiar **únicamente
 
 ---
 
-## 🚀 Cómo Ejecutarlo
+## Cómo Ejecutarlo
 
 ### Sin Docker (Node.js estándar)
 ```bash
@@ -46,7 +46,7 @@ docker compose up -d --build
 
 ---
 
-## 👤 Autoría
+## Autoría
 
 - **Autor:** Henrik Anderson Oloroso García (`Anderson-Oloroso`)
 - **Licencia:** [MIT](./LICENSE)
